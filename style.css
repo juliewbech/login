@@ -1,8 +1,10 @@
 form {
-  width: 12rem;
-  background-color: darkslateblue;
+  width: 18rem;
+  background-color: rgb(255, 255, 255);
   padding: 2rem;
-  border-radius: 8px;
+  border-radius: 14px;
+  border-color: black;
+  background-color: rgb(238, 255, 249);
 }
 
 input,
@@ -18,6 +20,21 @@ textarea {
 }
 
 label {
-  color: aliceblue;
+  color: rgb(43, 43, 43);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.name {
+  color: black;
+}
+
+button {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 8px;
 }

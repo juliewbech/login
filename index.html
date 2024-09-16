@@ -7,19 +7,38 @@
     <title>Login</title>
   </head>
   <body>
-    <h1>Registre dig her</h1>
+    <h1>Get started!</h1>
     <form name="contact" netlify>
       <label for="name"
-        >Dit navn: <input type="text" id="name" name="name"
+        >Your name:
+        <input
+          placeholder="Your name"
+          type="text"
+          id="name"
+          name="name"
+          required
       /></label>
       <label for="email"
-        >Din email: <input type="email" id="email" name="email"
+        >Your email:
+        <input
+          placeholder="Your email"
+          type="email"
+          id="email"
+          name="email"
+          required
       /></label>
       <label for="adress"
-        >Din adresse: <input type="adress" id="adress" name="adress"
+        >Your adress:
+        <input
+          placeholder=" Your adress"
+          type="adress"
+          id="adress"
+          name="adress"
+          required
       /></label>
       <label for="message">Message:</label
       ><textarea id="message" name="message"></textarea>
+      <button>Login</button>
     </form>
   </body>
 </html>
