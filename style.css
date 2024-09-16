@@ -1,1 +1,23 @@
- 
+form {
+  width: 12rem;
+  background-color: darkslateblue;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 6rem;
+}
+
+label {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
